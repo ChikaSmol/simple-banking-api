@@ -21,6 +21,8 @@
 
 
 ##Non Functional Test Cases
+Tests described includes description and examples of non-functional tests that can be considered assuming the application included a user interface which was not built for this project.
+
 ### Performance Testing
 | Test Case | Description | Steps | Expected Result |
 |-----------|-------------|-------|-----------------|
