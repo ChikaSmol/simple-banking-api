@@ -16,13 +16,15 @@ This is a simple banking API built with Flask. It provides endpoints for creatin
    cd simple-banking-api
    ```
 
-3. Run a python local environment with this command:
+3. Make sure you have for system setup for python development recommended version: python3
+
+4. Run a python local environment with this command:
 
    ```bash
    pipenv shell
    ```
 
-4. Install the required dependencies:
+5. Install the required dependencies:
 
    ```bash
    pip install flask
@@ -36,7 +38,7 @@ This is a simple banking API built with Flask. It provides endpoints for creatin
    python main.py
    ```
 
-2. Use the following endpoints to interact with the API:
+2. Use the following endpoints to interact with the API using curl, insomia or postman or by simply running test.py file:
    - `POST /create_user`: Create a new user with a username.
    - `GET /get_user/<username>`: Get details of a specific user.
    - `POST /deposit`: Deposit funds into a user's account.
@@ -54,4 +56,4 @@ python3 -m unittest test.py -v
 
 ## Non-Functional Testing
 
-The project also does not include non-functional test cases for performance, security, reliability, usability, and compatibility. These test cases are documented in the testCases.md file.
+The project also does not include non-functional tests. The test cases are only documented in the testCases.md file.
